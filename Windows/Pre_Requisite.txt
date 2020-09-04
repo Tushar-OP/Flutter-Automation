@@ -1,0 +1,7 @@
+#Upgrade Pip
+
+python -m pip install –-upgrade pip
+
+#Install dependencies
+
+pip install PyGithub
