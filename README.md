@@ -38,7 +38,7 @@ How to use?
 in C:\ (top-level, not within any folders)
 
 > Add the path to batch script to the environment variables, follow this; search for 'system' -> Advance System settings ->
-Environment Variable -> Under system variable doube click PATH -> New -> 
+Environment Variable -> Under system variable double click PATH -> New -> 
 Paste the location to your batch script(for e.g C:\Flutter-Automation\Windows)
 
 > Done, it's ready for use!
