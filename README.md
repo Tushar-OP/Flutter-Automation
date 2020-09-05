@@ -29,7 +29,7 @@ How to use?
 ```
 > git clone https://github.com/Tushar-OP/Flutter-Automation
 
-> python pre-requisite.py
+> run pre-requisite.bat or Install the dependencies in pre-requisite.txt
 
 > Open upload.py with your editor of choice, and add your github username and password, save it.
 (NOTE: If you have android studio located not in the defaut location, you need to change that too in the python file)
