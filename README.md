@@ -1,4 +1,4 @@
-# Flutter Automation Script
+<em><h1 align=center> Flutter Automation Script </h1></em>
 
 <p align=center>
 A script for automating the tasks of creating and uploading a flutter project to github.
