@@ -5,6 +5,7 @@ from github import Github
 foldername = str(sys.argv[1])
 path = str(sys.argv[2])
 ide = str(sys.argv[3]).lower()
+username = str(sys.argv[4])
 
 g = Github("username", "password")
 user = g.get_user()
@@ -30,7 +31,8 @@ try:
         os.system(
             f'start "" "C:/Program Files/Android/Android Studio/bin/studio64.exe" {path}')
     else:
-        os.system('code .')
+        os.system(
+            f'start "" "C:/Users/{username}/AppData/Local/Programs/Microsoft VS Code/Code.exe" {path}')
 
 except:
     print('Can\'t upload, something happened')

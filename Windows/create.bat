@@ -1,15 +1,15 @@
 ::Author:	Tushar Patil
 ::Date-Created: 04-09-2020
-::Param:	/ide  [string]
-::		/path [string]
-::Usage:	create [filename] [/ide (String)] [/path (String)]
+::Param:	-ide  [string]
+::		-path [string]
+::Usage:	create [filename] [-ide (String)] [-path (String)]
 
 
 @echo off
 SETLOCAL
 
 ::Check if the first param is help
-IF "%~1"=="/help"  GOTO GetHelp
+IF "%~1"=="-help"  GOTO GetHelp
 
 ::Take the filename and shift so we can parse other params
 SET filename=%~1
@@ -23,11 +23,11 @@ GOTO :ParseParams
 
     IF "%~1"=="" GOTO CheckDefault
 
-    IF "%~1"=="/help"  GOTO GetHelp
+    IF "%~1"=="-help"  GOTO GetHelp
     
-    IF "%~1"=="/ide"  GOTO SetIde
+    IF "%~1"=="-ide"  GOTO SetIde
 
-    IF "%~1"=="/path"  GOTO SetPath
+    IF "%~1"=="-path"  GOTO SetPath
 
     SHIFT
 
@@ -67,11 +67,11 @@ CALL flutter create %filename%
 CALL cd %filename%
 
 ::Call the python script
-CALL upload.py %filename% %cd% %ide%
+CALL upload.py %filename% %cd% %ide% %USERNAME%
 
 EXIT
 ENDLOCAL
 
 :GetHelp
-ECHO Usage - create filename /ide ['AS': android studio or 'code': VSCode] /path [default: desktop]
+ECHO Usage - create filename -ide ['AS': android studio or 'code': VSCode] -path [default: desktop]
 PAUSE
