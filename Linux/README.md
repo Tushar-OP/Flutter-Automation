@@ -15,6 +15,9 @@ Made with Batch Scripts and Python❤
 <br/>
 <br/>
 Here it is, the Linux version of the Script!
+<br/>
+A big shout to <a href="https://github.com/Singh-Shivani">Shivani Singh</a> for letting me borrow her system for developing and testing the script!<br/> 
+   Do check her Github profile and follow.
 </p>
 
 ## What does it do?
