@@ -13,7 +13,6 @@ Made with Batch Scripts and Python❤
 <br/>
 <br/>
 <br/>
-I have seen a lot of scripts for Linux and Mac but not for Windows, so here it is!
 </p>
 
 <p align=center><b>🎥In Action:</b><br><br><img src="script.gif"/></p>
@@ -54,7 +53,7 @@ open create.bat for editing, <br> head to line 52, change SET ide="as" to SET id
 and change SET pt="C:\Users\%USERNAME%\Desktop\" to whatever location you want.
 ```
 
-I will be creating the same for Linux and Mac.
+I will be creating the same for Mac.
 
 If you find it useful, please star it!
 
