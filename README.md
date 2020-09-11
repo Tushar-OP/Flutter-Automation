@@ -32,10 +32,10 @@ How to use?
 > run pre-requisite.bat or Install the dependencies in pre-requisite.txt
 
 > Open upload.py with your editor of choice, and add your github username and password, save it.
-(NOTE: If you have android studio located not in the defaut location, you need to change that too in the python file)
+(NOTE: If you have android studio and VSCode not located in the defaut location, you need to change that too in the python file to your path)
 
 > Move your folder to some location that you'll not change or delete, for e.g I keep mine 
-in C:\ (top-level, not within any folders)
+in C:\Flutter Scripts\ (top-level, not within any folders)
 
 > Add the path to batch script to the environment variables, follow this; search for 'system' -> Advance System settings ->
 Environment Variable -> Under system variable double click PATH -> New -> 
@@ -44,7 +44,7 @@ Paste the location to your batch script(for e.g C:\Flutter-Automation\Windows)
 > Done, it's ready for use!
 
 > Usage: create [project_name] [/ide (as: Android Studio or code: VSCode)] [/path custom_path_to_create_project]
-> e.g create new_proj /ide as /path C:\users\tushar\Desktop\Flutter Projects
+> e.g create new_proj -ide as -path C:\users\tushar\Desktop\Flutter Projects
 
 
 > EXTRAS
