@@ -24,34 +24,42 @@ What does it do?
 - Uploades it to your github
 - Finally, opens with either Android studio or VSCode the choice is yours.
 
+
+
 How to use?
-```
-> git clone https://github.com/Tushar-OP/Flutter-Automation
 
-> run pre-requisite.bat or Install the dependencies in pre-requisite.txt
+1. Steps for Linux:
 
-> Open upload.py with your editor of choice, and add your github username and password, save it.
-(NOTE: If you have android studio and VSCode not located in the defaut location, you need to change that too in the python file to your path)
+   Head over to the Linux folder or [click here](https://github.com/Tushar-OP/Flutter-Automation/tree/master/Linux)
 
-> Move your folder to some location that you'll not change or delete, for e.g I keep mine 
-in C:\Flutter Scripts\ (top-level, not within any folders)
+2. Steps for Windows:
+   ```
+    > git clone https://github.com/Tushar-OP/Flutter-Automation
 
-> Add the path to batch script to the environment variables, follow this; search for 'system' -> Advance System settings ->
-Environment Variable -> Under system variable double click PATH -> New -> 
-Paste the location to your batch script(for e.g C:\Flutter-Automation\Windows)
+    > run pre-requisite.bat or Install the dependencies in pre-requisite.txt
 
-> Done, it's ready for use!
+    > Open upload.py with your editor of choice, and add your github username and password, save it.
+    (NOTE: If you have android studio and VSCode not located in the defaut location, you need to change that too in the python file to your path)
 
-> Usage: create [project_name] [/ide (as: Android Studio or code: VSCode)] [/path custom_path_to_create_project]
-> e.g create new_proj -ide as -path C:\users\tushar\Desktop\Flutter Projects
+    > Move your folder to some location that you'll not change or delete, for e.g I keep mine 
+    in C:\Flutter Scripts\ (top-level, not within any folders)
+
+    > Add the path to batch script to the environment variables, follow this; search for 'system' -> Advance System settings ->
+    Environment Variable -> Under system variable double click PATH -> New -> 
+    Paste the location to your batch script(for e.g C:\Flutter-Automation\Windows)
+
+    > Done, it's ready for use!
+
+    > Usage: create [project_name] [/ide (as: Android Studio or code: VSCode)] [/path custom_path_to_create_project]
+    > e.g create new_proj -ide as -path C:\users\tushar\Desktop\Flutter Projects
 
 
-> EXTRAS
+    > EXTRAS
 
-> Default location is desktop and default IDE is Android Studio, you can change this too,
-open create.bat for editing, <br> head to line 52, change SET ide="as" to SET ide="code" 
-and change SET pt="C:\Users\%USERNAME%\Desktop\" to whatever location you want.
-```
+    > Default location is desktop and default IDE is Android Studio, you can change this too,
+    open create.bat for editing, <br> head to line 52, change SET ide="as" to SET ide="code" 
+    and change SET pt="C:\Users\%USERNAME%\Desktop\" to whatever location you want.
+   ```
 
 I will be creating the same for Mac.
 
