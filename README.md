@@ -3,7 +3,7 @@
 <p align=center>
 A script for automating the tasks of creating and uploading a flutter project to github.
 <br/>
-Made with Batch Scripts and Python❤
+Made with Batch Scripts, Shell Scripts and Python❤
 <br/>
 <br/>
 <img alt="License" src="https://img.shields.io/github/license/Tushar-OP/The_Food_Story?logo=github&style=for-the-badge&labelColor=blackcolor=brightgreen" />
